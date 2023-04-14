@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+header{
+    background-image: linear-gradient(to right, rgb(255, 136, 0), rgb(236, 204, 23), rgb(235, 253, 74), rgb(207, 32, 241), rgb(81, 2, 112));
+}
+
+header>h1{
+    text-align: center;
+}
+
+header > div > menu > ul > li{
+    display: inline;
+    margin: 55px;
+    background-color: aqua;
+    width: 70px;
+}
+
+img#conta{
+    position: absolute;
+    right: 10%;
+}
+
+img#pesquisa{
+    position: absolute;
+    right: 35%;
+    
+}
+
+img#menu{
+    position: absolute;
+    left: 10%;
+}
+
+img#inicio{
+    position: absolute;
+    left: 35%;
+}
+
+div#listas{
+    background-image: linear-gradient(to right, rgb(255, 136, 0), rgb(236, 204, 23), rgb(235, 253, 74), rgb(207, 32, 241), rgb(81, 2, 112));
+}
+
+nav {
+    background-color: rgba(64, 2, 122, 0.801);
+}
+
+
+nav >  div > ul > li{
+    display: inline;
+    margin: 55px;
+    width: 70px;
+}
+
+
+nav>  div > ul > li> h2{
+    text-align: center;
+}
+
+img#adicionar{
+    position: absolute;
+    left: 20%;
+}
+
+img#modificar{
+    position: absolute;
+    left: 23.5%;
+}
+
+img#excluir{
+    position: absolute;
+    right: 23.5%;
+}
+
+
+#tarefas{
+    display: flex;
+    width: 100vw;
+}
+
+.quadro {
+    
+    width: 210px;
+    height: 130px;
+    border-radius: 4px;
+    background-color: #ccc;
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+  }
+  
+  .quadro h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .quadro button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .quadro button:hover {
+    background-color: #006400;
+  }
+
+  .divCentro{
+    display: block;
+    position: static;
+    width: 500px;
+    height: 500px;
+    background-color: #006400;
+  }
